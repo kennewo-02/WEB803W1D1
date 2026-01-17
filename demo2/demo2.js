@@ -2,9 +2,9 @@ class HelloMessage extends React.Component {
     render () {
         return React.createElement (
             "div",
-            null,
+             null,
             "Hello ",
-            this.props.name
+             this.props.name
         );
     }
 }
