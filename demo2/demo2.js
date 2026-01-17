@@ -9,6 +9,6 @@ class HelloMessage extends React.Component {
     }
 }
 
-ReactDom.render (React.createElement(HelloMessage, 
+ReactDOM.render(React.createElement(HelloMessage, 
     {name: "Westcliff" }),
-document.getElementById('Hello-example'));
+document.getElementById('hello-example'));

@@ -5,9 +5,9 @@
     <meta name="viewport"
       content="width=device-width, initial-scale=1" />
     <title>React App</title>
-    <script src="https://unpkg.com/react/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" defer></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" defer></script>
+    <script src="https://unpkg.com/@babel/standalone@7/babel.min.js" defer data-presets = "react"></script>
   </head>
   <body>
 
@@ -17,7 +17,7 @@
         render() {
             return (
             <div>
-            <h1>Hello Style!</h1>
+            <h1 style={{color: "red"}}>Hello Style!</h1>
             <p>Add a little style!</p>
             </div>
             );
